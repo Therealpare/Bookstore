@@ -24,6 +24,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "@react-native-voice/voice",
+      "expo-web-browser"
+    ]
   }
 }
