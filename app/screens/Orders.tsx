@@ -168,19 +168,21 @@ const styles = StyleSheet.create({
         alignItems: "center",
     },
     image: {
-        width: 40,
-        height: 60,
+        width: 80,
+        height: 100,
         marginRight: 10,
     },
     title: {
-        fontSize: 14,
+        fontSize: 16,
+        fontWeight: 500,
+        marginBottom: 5,
     },
     price: {
         fontSize: 13,
         color: "#666",
     },
     total: {
-        marginTop: 10,
+        marginTop: -30,
         fontWeight: "bold",
         fontSize: 16,
         textAlign: "right",
